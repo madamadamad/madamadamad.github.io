@@ -7,6 +7,9 @@
 
 body {
     font-family: Arial, sans-serif;
+    displey: flex;
+    justify-content: center;
+
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -86,4 +89,10 @@ footer {
     background: #0066cc;
     color: #fff;
     border-radius: 5px;
+}
+
+.container { 
+max-width: 768px; 
+width: 100%; 
+margin: 0 auto; 
 }
