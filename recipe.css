@@ -1,0 +1,88 @@
+body {
+    background-color: #ffe4e1; /* 薄いピンク */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #ff69b4;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #d63384;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ff69b4;
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+p {
+    color: #555;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ff1493;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ff69b4;
+}
+
+ol {
+    text-align: left;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
+.blog-container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #d63384;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-top: 3px solid #ff69b4;
+    margin-top: 20px;
+}
