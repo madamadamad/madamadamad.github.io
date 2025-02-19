@@ -1,101 +1,63 @@
-/* リセット */
-* {
+body {
+    background-color: #ffe4e1; /* 薄いピンク */
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-header h1 {
-    color: white;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    displey: flex;
-    justify-content: center;
-    line-height: 1.6;
-    background-color: #3cb371;
-    color: #333;
-    padding: 20px;
-}
-
-/* ヘッダー */
-header {
-    background: #0066cc;
-    color: #000;
-    padding: 10px 0;
     text-align: center;
-    margin-bottom: 20px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2em;
+h1 {
+    color: #d63384;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    margin-top: 20px;
 }
 
-/* 目次 */
-nav {
-    background: #e0e0e0;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+h2 {
+    color: #ff69b4;
+    font-size: 1.8em;
 }
 
-nav h2 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
+p {
+    color: #555;
+    font-size: 1.2em;
 }
 
-nav ul {
+ul {
     list-style-type: none;
     padding: 0;
+    display: inline-block;
+    text-align: left;
 }
 
-nav li {
-    margin-bottom: 10px;
-}
-
-nav a {
+ul li a {
     text-decoration: none;
-    color: #0066cc;
+    color: #ff1493;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-nav a:hover {
-    text-decoration: underline;
+ul li a:hover {
+    color: #ff69b4;
 }
 
-/* メインコンテンツ */
-main {
-    background: #fff;
+.blog-container {
+    background-color: white;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
 }
 
-main h2 {
-    color: #0066cc;
-    margin-bottom: 10px;
-    font-size: 1.75em;
-}
-
-main p {
-    margin-bottom: 20px;
-    line-height: 1.8;
-}
-
-/* フッター */
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #d63384;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-top: 3px solid #ff69b4;
     margin-top: 20px;
-    background: #0066cc;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.container { 
-max-width: 768px; 
-width: 100%; 
-margin: 0 auto; 
 }
